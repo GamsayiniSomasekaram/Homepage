@@ -1,10 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
+import Hersection from './components/Hersection'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+   <Hersection />
   </StrictMode>,
 )
